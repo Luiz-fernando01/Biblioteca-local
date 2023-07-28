@@ -10,8 +10,8 @@ router.get('/cool', function(req, res, next) {
   res.render('index', { title: 'you are so cool' });
 });
 
-router.get('/cool/PC', function(req, res, next) {
-  res.send('É os guri da TI' );
+router.get('/cool/beach', function(req, res, next) {
+  res.send('eu amo praia <3' );
 });
 
 router.get('/ifc', function(req, res, next) {
