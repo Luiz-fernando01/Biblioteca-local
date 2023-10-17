@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  
+  h1(class='content-catalog') Os melhores livros de todos os tempos 
+
+  p isso é uma lista de top 5 que contem os 5 melhores livros de todos os tempos :
+
+  ul
+    li #[strong Books:] !{book_count}
+    li #[strong Copies:] !{book_instance_count}
+    li #[strong Copies available:] !{book_instance_available_count}
+    li #[strong Authors:] !{author_count}
+    li #[strong Genres:] !{genre_count}

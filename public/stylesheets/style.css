@@ -1,8 +1,24 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  background-color: #7b2cbf;
 }
-
-a {
-  color: #00B7FF;
+.content-catalog {
+  margin-top: 40px;
+}
+.text-menu {
+ color: aliceblue; 
+ text-decoration: none;
+ font-weight: bold;
+ transition: 0.2s;
+}
+.text-menu :hover{
+  background:#dfeaf1 ;
+  text-decoration: none;
+}
+.container-fluid{
+  background-color: rgb(209, 178, 209);
 }
